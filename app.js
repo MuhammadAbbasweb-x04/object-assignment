@@ -36,14 +36,14 @@ const students = [
   { name: "Kashif", scores: 87 }
 ];
 let topscore = [];
-let p = document.querySelector("p")
+let ul = document.querySelector("ul");
 
 for(let i =0; i < students.length; i++){
 if(topscore > students[i]){
-p.innerHTML += ` <p>${students[i].name}
+p.innerHTML += ` <li>${students[i].name}
 ${students[i].scores}
 
-</p>
+</li>
 
 `
 }
