@@ -120,3 +120,31 @@
 
 
 // console.log(user);
+
+// Q6
+//Answer
+const products = [
+  { name: "Laptop", price: 75000 },
+  { name: "Phone", price: 30000 },
+  { name: "Tablet", price: 45000 },
+  { name: "Monitor", price: 15000 },
+  { name: "Keyboard", price: 2500 },
+  { name: "Mouse", price: 1200 },
+  { name: "Smartwatch", price: 10000 }
+];
+
+
+let ul = document.querySelector("ul");
+
+function pro(){
+for(let i =0; i < products.length; i++){
+products.sort(products.name)
+products.sort(products.price)
+ul.innerHTML += `<li>  
+${products[i].name}
+${products[i].price}
+
+</li>
+`
+}
+}
