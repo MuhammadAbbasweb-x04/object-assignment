@@ -76,3 +76,47 @@
 
 // }
 // }
+
+
+
+// Q4
+//Answer
+// const wordCounts = { 
+//   hello: 3,
+//   world: 2,
+//   this: 1,
+//   is: 1,
+//   test: 1
+// };
+
+// let inputtext = document.querySelector("#inputtext");
+// let p = document.querySelector("p");
+
+//  let wordskeys = Object.keys(wordCounts);
+// function words(){
+// for(let i = 0; i < wordCounts.length; i++){
+// let key = wordCounts[i]
+
+// p.innerHTML += ` ${inputtext.value}
+
+// ${key}: ${wordCounts[key]}
+// `
+// }
+//
+
+
+
+
+
+// Q5
+//Answer
+// let role = "admin"
+// let user = {
+//     name: "Muhammad Abbas",
+//     cit: "quetta",
+//     age: 21,
+//     [role] : "Muhammad Abbas"
+// }
+
+
+// console.log(user);
