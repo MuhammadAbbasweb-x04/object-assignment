@@ -123,28 +123,58 @@
 
 // Q6
 //Answer
-const products = [
-  { name: "Laptop", price: 75000 },
-  { name: "Phone", price: 30000 },
-  { name: "Tablet", price: 45000 },
-  { name: "Monitor", price: 15000 },
-  { name: "Keyboard", price: 2500 },
-  { name: "Mouse", price: 1200 },
-  { name: "Smartwatch", price: 10000 }
-];
+// const products = [
+//   { name: "Laptop", price: 75000 },
+//   { name: "Phone", price: 30000 },
+//   { name: "Tablet", price: 45000 },
+//   { name: "Monitor", price: 15000 },
+//   { name: "Keyboard", price: 2500 },
+//   { name: "Mouse", price: 1200 },
+//   { name: "Smartwatch", price: 10000 }
+// ];
 
 
-let ul = document.querySelector("ul");
+// let ul = document.querySelector("ul");
 
-function pro(){
-for(let i =0; i < products.length; i++){
-products.sort(products.name)
-products.sort(products.price)
-ul.innerHTML += `<li>  
-${products[i].name}
-${products[i].price}
 
-</li>
-`
-}
-}
+// for(let i =0; i < products.length; i++){
+// ul.innerHTML += `<li>  
+// ${products[i].name}
+// ${products[i].price}
+
+// </li>
+// `
+// }
+
+
+// function toggleBtn(){
+//   products.sort(function(a,b){
+// return a.price - b.price
+//   })
+// }
+
+
+
+// Q7
+//Answer
+
+// let nameinput = document.querySelector("#nameinput");
+// let emailinput = document.querySelector("#emailinput");
+// let ageinput = document.querySelector("#ageinput");
+// let arrobj = [];
+// function submit(){
+// const userinfo = {
+// name : nameinput.value,
+// email: emailinput.value,
+// ege :  ageinput.value,
+// }
+
+
+// arrobj.push(userinfo)
+// console.log(arrobj)
+
+// }
+
+
+// Q8
+//Answer
