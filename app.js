@@ -168,13 +168,30 @@
 // email: emailinput.value,
 // ege :  ageinput.value,
 // }
-
-
 // arrobj.push(userinfo)
 // console.log(arrobj)
-
 // }
 
 
 // Q8
 //Answer
+// const user = {
+//   name: "Muhammad Abbas",
+//   email: "Abbas@gmail.com",
+//   address: {
+//     city: "Quetta",
+//     country: "Pakistan",
+//   }
+// };
+// let div = document.querySelector("#disply")
+// div.innerHTML = `<ul><li>${user.name} </li> <li> ${user.email} </li>
+// <li> ${user.address.city} </li>
+// <li> ${user.address.country} </li>
+// <ul> ` 
+
+
+
+
+
+
+
