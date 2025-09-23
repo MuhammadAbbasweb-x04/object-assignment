@@ -189,9 +189,56 @@
 // <li> ${user.address.country} </li>
 // <ul> ` 
 
+// Q9
+//Answer
+// const cart = [
+//   {
+//     name: "T-Shirt",
+//     brand: "Nike",
+//     price: 1200,
+//     quantity: 2,
+    
+
+  
+//   },
+//   {
+//     name: "Sneakers",
+//     brand: "Adidas",
+//     price: 5500,
+//     quantity: 1
+//   },
+//   {
+//     name: "Backpack",
+//     brand: "Puma",
+//     price: 3000,
+//     quantity: 1
+//   },
+//   {
+//     name: "Watch",
+//     brand: "Fossil",
+//     price: 8000,
+//     quantity: 1
+//   }
+// ];
+
+// let div = document.querySelector("#disply")
+// let h1 = document.querySelector("h1");
+// let total = 0;
+
+// for(let i =0; i < cart.length; i++){
+// div.innerHTML += `<div id="card"> 
+//  <h2>product name: ${cart[i].name}</h2>
+//  <h3>brand: ${cart[i].brand}</h3>
+// <h3>price:  ${cart[i].price}</h3>
+// <h3>quantity:  ${cart[i].quantity}</h3>
+// </div>
+// `
+// total += cart[i].price * cart[i].quantity
+// h1.innerHTML = `Total:${total}`
+
+// }
 
 
 
-
-
-
+// Q10
+//Answer
