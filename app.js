@@ -240,5 +240,32 @@
 
 
 
-// Q10
+// Q11
 //Answer
+
+// let searchinput = document.querySelector("#searchinput");
+// let div =document.querySelector("#conatiner");
+//   const products = [
+//     { id: 1, name: "Apple", category: "Fruit" },
+//     { id: 2, name: "Banana", category: "Fruit" },
+//     { id: 3, name: "Carrot", category: "Vegetable" },
+//     { id: 4, name: "Dates", category: "Dry Fruit" },
+//     { id: 5, name: "Eggplant", category: "Vegetable" }
+//   ];
+
+// for(let i =0; i < products.length; i++){
+// div.innerHTML += `<div id="cartitems">
+// <h3>Product name:${products[i].name}</h3>
+// </br>
+// <h3>category:${products[i].category}<h3>
+// </br>
+// </div>
+
+// ` 
+
+// }
+// let show = document.querySelector("#showresult")
+// let newarr = products.filter(product => {
+// return product.name.toLocaleLowerCase().includes(searchinput) || product.category.toLocaleLowerCase().includes(searchinput)
+// })
+// show.innerHTML = searchinput.value
